@@ -1,6 +1,17 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v11.1.3...11.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v1.0.0...main)
+
+## [v1.0.0](https://github.com/laravel/laravel/compare/v11.1.3...v1.0.0) - 2024-08-05
+
+### What's New
+
+- Added "AE Informasi" feature as a comprehensive information hub for all HIMAMO activities, news, and updates.
+- Project structure using Laravel 11 with Laravel Breeze Blade and Alpine JS.
+- User interface designed with Bootstrap.
+- Login and authentication forms styled with Tailwind CSS.
+- Database management using phpMyAdmin.
+- PHP version 8.3.3 used as the programming language.
 
 ## [v11.1.3](https://github.com/laravel/laravel/compare/v11.1.2...v11.1.3) - 2024-07-03
 
