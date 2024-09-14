@@ -19,7 +19,7 @@ class PustakaSeeder extends Seeder
                 'title' => 'Calculus Volume 1',
                 'slug' => 'calculus_volume_1',
                 'url' => 'https://drive.google.com/file/d/1xHSd0HZuTxm2OAGuOUM8JqvMh-FHj5nD/view',
-                'isbn' => '978-1-947172-13-5',
+                'isbn' => '9781947172135',
                 'penulis' => 'Gilbert Strang',
                 'penerbit' => 'OpenStax',
                 'tahun_terbit' => '2016',
