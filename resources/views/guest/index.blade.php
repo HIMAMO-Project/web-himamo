@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="carousel-item drk">
-                    <img src="{{ asset('assets-guest/img/img-carousel-2.jpg') }}" class="d-block gbr img-fluid">
+                    <img src="{{ asset('assets-guest/img/img-carousel-2.jpg') }}" class="d-block gbr img-fluid" loading="lazy">
                     <div class="carousel-caption">
                         <div class="row no-gutters slider-text align-items-center justify-content-center">
                             <h1 class="quote">Still <span>The Highest</span></h1>
@@ -49,7 +49,7 @@
             <div class="container pb-5 px-5 pt-5">
                 <div class="row">
                     <div class="col-md text-md-start">
-                        <img class="logoae gs_reveal gs_reveal_fromLeft pt-3" src="{{ asset('assets-guest/img/img-logo-jurusan.png') }}" alt="Logo Jurusan">
+                        <img class="logoae gs_reveal gs_reveal_fromLeft pt-3" src="{{ asset('assets-guest/img/img-logo-jurusan.png') }}" alt="Logo Jurusan" loading="lazy">
                     </div>
                     <div class="col-md-7 gs_reveal gs_reveal_fromRight">
                         <h2 class="text-dark quote text-md-end pt-3">Apa itu <span class="judul">Jurusan
@@ -93,7 +93,7 @@
                         <a href="/prodi-d4-tro" class=" col-lg col-md-6 col-12 mt-4" style="text-decoration: none;">
                             <div class=" text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/tro_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/tro_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
                                 <p class="subject-name fw-bold ">D4 - Teknologi Rekayasa<br>Otomasi</p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                         <a href="/prodi-d4-trmo" class="col-12 col-lg col-md-6 mt-4" style="text-decoration: none;">
                             <div class=" text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/trmo_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/trmo_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
                                 <p class="subject-name fw-bold ">D4 - Teknologi Rekayasa <br>Mekatronika</p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                         <a href="prodi-d4-trin" class="col-12 col-lg col-md-6 mt-4" style="text-decoration: none;">
                             <div class=" text-center">
                                 <div class="subject-box" >
-                                    <img src="{{ asset('assets-guest/img/trin_subject.svg') }}" alt="Robotika" class="subject-image">
+                                    <img src="{{ asset('assets-guest/img/trin_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
                                     <p class="subject-name fw-bold ">D4 - Teknologi Rekayasa <br> Informatika Industri</p>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                         <a href="prodi-d2-trmo" class="col-lg col-12 col-md-6 mt-4 " style="text-decoration: none;">
                             <div class=" text-center ">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/trmo-d2_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/trmo-d2_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
                                 <p class="subject-name fw-bold">D2 Fast Track - Teknik <br> Mekatronika</p>
                             </div>
                         </div>
@@ -149,12 +149,12 @@
 
                     </div>
                     <div class="col-md pb-5 text-md-end">
-                        <img class="logoae gs_reveal gs_reveal_fromLeft pt-5" src="{{ asset('assets-guest/img/img-himamo.png') }}">
+                        <img class="logoae gs_reveal gs_reveal_fromLeft pt-5" src="{{ asset('assets-guest/img/img-himamo.png') }}" loading="lazy">
                     </div>
                 </div>
             </div>
 
-            <div class="container gs_reveal pb-5">
+            <!-- <div class="container gs_reveal pb-5">
                 <div class="row">
                     <div class="col-6 pt-5 text-center">
                         <i class='icon2 bx bxs-contact'></i>
@@ -177,7 +177,7 @@
                         <h5 class="karla">Bendera</h5>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -555,28 +555,28 @@
                     <div class="row pt-1 pb-4 subject-list gs_reveal">
                         <div class="col-12 col-md-6 mt-4 col-lg text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/tro_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/tro_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
 
                                 <p class="subject-name">Teknologi Rekayasa<br>Otomasi</p>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 mt-4 col-lg text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/trmo_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/trmo_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
 
                                 <p class="subject-name">Teknologi Rekayasa Mekatronika</p>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 mt-4 col-lg text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/trin_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/trin_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
 
                                 <p class="subject-name">Teknologi Rekayasa Informatika Industri</p>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 mt-4 col-lg text-center">
                             <div class="subject-box">
-                                <img src="{{ asset('assets-guest/img/teori_subject.svg') }}" alt="Robotika" class="subject-image">
+                                <img src="{{ asset('assets-guest/img/teori_subject.svg') }}" alt="Robotika" class="subject-image" loading="lazy">
 
                                 <p class="subject-name">Penunjang Teori <br><br></p>
                             </div>
@@ -617,7 +617,7 @@
                                 <div class="info-box">
                                     <div class="img-box align-items-center">
                                         <img src="{{ asset('storage/informasi/' . $item->image) }}" alt="{{ $item->title }}"
-                                             class="info-image rounded mx-auto">
+                                             class="info-image rounded mx-auto" loading="lazy">
                                     </div>
                                     <p class="info-date">{{ date('d/m/Y', strtotime($item->created_at)) }}</p>
                                     <p class="info-title">{{ $item->title }}</p>
@@ -769,7 +769,7 @@
             </div>
             <div class="row">
                 <div class="text-center embed-responsive">
-                    <iframe class="gs_reveal pideo" src="https://www.youtube.com/embed/RZgV_O8PNEU"
+                    <iframe class="gs_reveal pideo" src="https://www.youtube.com/embed/rdPUrmRmNoU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>

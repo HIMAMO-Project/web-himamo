@@ -8,10 +8,10 @@
             <div class="container my-4">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-center text-black fw-bold py-4">D2 Jalur Cepat Teknik Mekatronika</h2>
+                        <h2 class="text-center text-black fw-bold py-4 text-dark">D2 Jalur Cepat Teknik Mekatronika</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="text-dark">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">D2 Jalur Cepat Teknik Mekatronika</li>
                             </ol>
                         </nav>
@@ -28,7 +28,7 @@
         <div class="container book-info text-black">
             <div class="row mt-4">
                 <div class="col-12 ps-5 pe-5">
-                    <div class="shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="shadow-lg p-3 mb-4 text-dark rounded">
                         <div class="card-body text-start description-card">
                             <h3 class="card-title fw-bold mb-4">D2 Jalur Cepat Teknik Mekatronika</h3>
                             <p class="card-text">Program studi Teknik Mekatronika merupakan program pendidikan Diploma Dua (D-II) yang menghasilkan lulusan Ahli Muda dengan profil sebagai Senior Operator dan Junior Technician. (A.Ma.). Program ini bekerja sama dengan SMK dan DUDIKA yang dilaksanakan selama 3 semester, 1 semester di kampus dan 2 semester magang industri. Dengan mempelajari teknik rekayasa mesin, elektro, dan komputer sehingga lulusannya mampu melakukan pengetesan dan kalibrasi mesin agar dapat meningkatkan produksi barang.
@@ -48,7 +48,7 @@
                             <a href="https://drive.google.com/drive/folders/1I2hqDn9o81xM8cNGPYZFuT1-_AaDqsts?usp=drive_link" class="btn btn-primary form-control mt-3" >Bahan Ajar D2 Teknik Mekatronika</a>
                         </div>
                     </div>
-                    <ul class="list-group mb-4">
+                    <!-- <ul class="list-group mb-4">
                         <li class="list-group-item border-0">
                             <a href="#">• D4 Prodi Teknologi Rekayasa Mekatronika</a>
                         </li>
@@ -58,7 +58,21 @@
                         <li class="list-group-item border-0">
                             <a href="#">• D4 Prodi Teknologi Rekayasa Informatika Industri</a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <div class="prodi-lainnya">
+                        <h3 class="text-dark fw-bold ">Lihat lainnya</h3>
+                        <div class="link-prodi">
+                            <div class="d4-mekatronika">
+                            <a href="prodi-d4-trmo" class="text-dark">D4 Prodi Teknik Rekayasa Mekatronika</a>
+                            </div>
+                            <div class="d4-otomasi">
+                                <a href="prodi-d4-tro" class="text-dark">D4 Prodi Teknologi Rekayasa Otomasi</a>
+                            </div>
+                            <div class="d4-informatika">
+                            <a href="prodi-d4-trin" class="text-dark">D4 Prodi Teknologi Rekayasa Informatika Industri</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

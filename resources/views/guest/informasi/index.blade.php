@@ -24,7 +24,7 @@
                                 <div class="info-box">
                                     <div class="img-box align-items-center">
                                         <img src="{{ asset('storage/informasi/' . $item->image) }}" alt="{{ $item->title }}"
-                                            class="info-image rounded mx-auto">
+                                            class="info-image rounded mx-auto" loading="lazy">
                                     </div>
                                     <p class="info-date">{{ date('d/m/Y', strtotime($item->created_at)) }}</p>
                                     <p class="info-title">{{ $item->title }}</p>
