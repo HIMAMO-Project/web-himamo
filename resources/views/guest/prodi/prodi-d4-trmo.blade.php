@@ -8,11 +8,11 @@
             <div class="container my-4">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-center text-black fw-bold py-4">D4 Teknologi Rekayasa Mekatronika</h2>
+                        <h2 class="text-center text-dark text-black fw-bold py-4">D4 Teknologi Rekayasa Mekatronika</h2>
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">D4 Teknologi Rekayasa Mekatronika</li>
+                            <ol class="breadcrumb justify-content-center breadcrumb-prodi">
+                                <li class="breadcrumb-item"><a class="text-dark" href="#">Home</a></li>
+                                <li class="breadcrumb-item active text-dark" aria-current="page">D4 Teknologi Rekayasa Mekatronika</li>
                             </ol>
                         </nav>
                     </div>
@@ -28,7 +28,7 @@
         <div class="container book-info text-black">
             <div class="row mt-4">
                 <div class="col-12 ps-5 pe-5">
-                    <div class="shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="shadow-lg p-3 mb-4 text-dark rounded">
                         <div class="card-body text-start description-card">
                             <h3 class="card-title fw-bold mb-4">D4 Teknologi Rekayasa Mekatronika </h3>
                             <h5 class="card-text fw-bold">Program Studi Teknologi Rekayasa Mekatronika</h5>
@@ -52,7 +52,7 @@
                             <a href="https://drive.google.com/drive/folders/1I2hqDn9o81xM8cNGPYZFuT1-_AaDqsts?usp=drive_link" class="btn btn-primary form-control mt-3" >Bahan Ajar D4 Teknologi Rekayasa Mekatronika</a>
                         </div>
                     </div>
-                    <ul class="list-group mb-4">
+                    <!-- <ul class="list-group mb-4">
                         <li class="list-group-item border-0">
                             <a href="#">• D2 Jalur Cepat Teknik Mekatronika</a>
                         </li>
@@ -62,7 +62,21 @@
                         <li class="list-group-item border-0">
                             <a href="#">• D4 Prodi Teknologi Rekayasa Informatika Industri</a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <div class="prodi-lainnya">
+                        <h3 class="text-dark fw-bold ">Lihat lainnya</h3>
+                        <div class="link-prodi">
+                            <div class="d2-mekatronika">
+                            <a href="prodi-d2-trmo" class="text-dark">D2 Jalur Cepat Teknik Mekatronika</a>
+                            </div>
+                            <div class="d4-otomasi">
+                                <a href="prodi-d4-tro" class="text-dark">D4 Prodi Teknologi Rekayasa Otomasi</a>
+                            </div>
+                            <div class="d4-informatika">
+                            <a href="prodi-d4-trin" class="text-dark">D4 Prodi Teknologi Rekayasa Informatika Industri</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
